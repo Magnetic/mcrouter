@@ -13,8 +13,8 @@
 
 __BEGIN_DECLS
 
-#define MC_KEY_MAX_LEN_ASCII (250)
-#define MC_KEY_MAX_LEN_UMBRELLA (2 * 1024)
+#define MC_KEY_MAX_LEN_ASCII (16 * 1026)
+#define MC_KEY_MAX_LEN_UMBRELLA (16 * 1024)
 #define MC_KEY_MAX_LEN (MC_KEY_MAX_LEN_UMBRELLA)
 
 typedef enum mc_protocol_e {
